@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Guess My Name!!</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assests/css/styles.css">
+	<script type="text/javascript" src="assests/javascript/game.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Sigmar+One|Special+Elite" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>Soccer Players..
+				<br>
+				<small>Can you guess some soccer players name?</small>
+			</h1>
+		</div>
+
+		<div class="row center-block match-my-cols">
+			<div class="col-xs-12 col-md-8 text-center left">
+				<h2 id="letsPlay">Wanna play? Press any key.</h2>
+				<h3>Current word:</h3>
+				<div id="currentWord"></div>
+				<br>
+				<div class="row">
+						<div class="col-xs-12 col-md-6">
+								<h3>Letter Guessed:</h3>
+								<div id="letterGuessed">--</div>
+							</div>
+					<div class="col-xs-12 col-md-6">
+						<h3>Guess Left:</h3>
+						<div id="guessLeft">--</div>
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<h3>Number of Wins:</h3>
+						<div id="wins">0</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<h3>Number of Losses:</h3>
+						<div id="losses">0</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-md-4 right">
+				<img class="center-block" src="assests/images/guess.jpg"  width="100%" height="100%">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
